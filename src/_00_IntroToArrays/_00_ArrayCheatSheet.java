@@ -20,7 +20,7 @@ public class _00_ArrayCheatSheet {
 		//   BE SURE TO USE THE ARRAY'S length VARIABLE
 		for (int i = 0; i < Strings.length; i++) {
 			System.out.println(Strings[i]);
-		}
+		} 
 		//7. make an array of 50 integers
 		int[] Ints = new int[50];
 		//8. use a for loop to make every value of the integer array a random number
@@ -48,5 +48,7 @@ public class _00_ArrayCheatSheet {
 		System.out.println(largest);
 		//12. print only the last element in the array
 		System.out.println(Ints[49]);
+		int[] v = {3, 2, 8, 0}; 
+		System.out.println(v[v.length-1]);
 	}
 }
