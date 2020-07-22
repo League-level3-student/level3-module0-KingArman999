@@ -48,7 +48,5 @@ public class _00_ArrayCheatSheet {
 		System.out.println(largest);
 		//12. print only the last element in the array
 		System.out.println(Ints[49]);
-		int[] v = {3, 2, 8, 0}; 
-		System.out.println(v[v.length-1]);
 	}
 }

@@ -18,10 +18,10 @@ public class MoreArrayFun {
 	}
 
 	void start() {
-		// reverse();
+		reverse();
 		// printer();
-		// other();
-		randomOrder();
+		//other();
+		//randomOrder();
 	}
 
 	// 2. Write a method that takes an array of Strings and prints all the Strings
@@ -46,9 +46,9 @@ public class MoreArrayFun {
 	// String in the array.
 	void other() {
 		for (int i = 0; i < strings.length; i++) {
-			if (strings.length / 2 > 0) {
+			
 				System.out.println(strings[i]);
-			}
+			
 		}
 	}
 
