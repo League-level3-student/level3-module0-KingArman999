@@ -5,13 +5,18 @@ import java.util.Random;
 public class _01_IntroToArrays {
     public static void main(String[] args) {
         // 1. declare and Initialize an array 5 Strings
-
+        String[] names = new String[5];
+        names[0] = "Jan";
+        names[1] = "Sara";
+        names[2] = "Fred";
+        names[3] = "Marc";
+        names[4] = "Randy";
         // 2. print the third element in the array
-
+        System.out.println(names[2]);
         // 3. set the third element to a different value
-
+        names[2].equals("Joe");
         // 4. print the third element again
-
+        System.out.println(names[2]);
         // 5. use a for loop to set all the elements in the array to a string
         //    of your choice
 
